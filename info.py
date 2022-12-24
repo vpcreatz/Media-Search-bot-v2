@@ -35,7 +35,7 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 START_MSG = environ.get('START_MSG', default_start_msg)
 
 FILE_CAPTION = environ.get("")
-OMDB_API_KEY = environ.get("<b>Join [MDISK MOVIES](https://t.me/mdisk_movies_files) for more useful bots</b>\n\n<code>{file_name}</code>\nSize{file_size}\n{file_caption}.OMDB_API_KEY", "9b8a4248")
+OMDB_API_KEY = environ.get("9b8a4248")
 if FILE_CAPTION.strip() == "":
     CUSTOM_FILE_CAPTION=None
 else:
