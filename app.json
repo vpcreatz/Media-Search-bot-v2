@@ -14,42 +14,42 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2",
-    "repository": "https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2",
+    "website": "https://github.com/vpcreatz/Media-Search-bot-v2",
+    "repository": "https://github.com/vpcreatz/Media-Search-bot-v2",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token from @BotFather",
-            "value": ""
+            "value": "5880821820:AAGzh_tMCLtrHN6RTvPxTWAYlsE_johGbIY"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "20960397"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "d68d847d3abb2087bf74f5d0683c2993"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": ""
+            "value": "-1001695882245"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "1718532980"
+            "value": "1327973537"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "value": "",
+            "value": "1327973537",
             "required": false
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "",
+            "value": "-1001695882245",
             "required": false
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm [Media Search Bot V2](https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2) or you can call me as Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "value": "**Hi, I'm [Media Search Bot V2](https://github.com/vpcreatz/Media-Search-bot-v2) or you can call me as Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
             "required": false
         },
         "USE_CAPTION_FILTER": {
@@ -64,21 +64,21 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "",
+            "value": "False",
             "required": false
         },
         "AUTH_GROUPS": {
             "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.",
-            "value": "",
+            "value": "False",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": ""
+            "value": "mongodb+srv://vpcreation:VPCREATION@atlascluster.hocwhdz.mongodb.net/?retryWrites=true&w=majority"
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": ""
+            "value": "AtlasCluster"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
